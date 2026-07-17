@@ -10,10 +10,6 @@ int main()
         if(marks>=80)
         {
             cout<<"Passed with A Grade."<<endl;
-        }
-        else
-       {
-         cout<<"Passed."<<endl;
        }
     }
     else

@@ -1,27 +1,24 @@
-#include<iostream>
+include<iostream>
 using namespace std;
 int main()
 {
-    int marks,attend;
-    cout<<"Enter student's marks:"<<endl;
-    cin>>marks;
-    cout<<"Enter student's attendance:"<<endl;
-    cin>>attend;
-    if(marks>=75)
+    int pin;
+    cout<<"Enter PIN";
+    cin>>pin;
+    if(pin=1234)
     {
-        if(attend>=50)
+        if(balance>100)
         {
-            cout<<"Scholarship Approved."<<endl;
+            cout<<"Transaction Allowed"<<endl;
         }
         else
         {
-            cout<<"Attendance is low."<<endl;
+            cout<<"Insufficient Balance"<<endl;
         }
     }
     else
     {
-        cout<<"Not Eligible for this Scholarship."<<endl;
-
+cout<<"Invalid Pin"<<endl;
     }
     return 0;
 }
